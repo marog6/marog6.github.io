@@ -1,0 +1,33 @@
+h1 {
+    background-image: url(./resources/images/pattern.jpeg);
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    background-color: mediumspringgreen;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.cena {
+    color: blue;
+    font-weight: bold;
+}
+
+h3, .cena, p {
+    font-family: Helvetica; 
+}
+
+.paint {
+    background-color: brown;
+}
+
+.frames {
+    background-color: blue;
+}
