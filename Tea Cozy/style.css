@@ -1,0 +1,127 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    color: seashell;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.main  {
+    height: 700px;
+    padding: 0 20px;;
+    display: flex;
+    background-image: url('./resources/images/img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main #mission-container {
+    margin: auto;
+    background-color: black;
+}
+
+.herbaty {
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.item img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.item {
+    width: 300px;
+    padding: 0 20px 20px 0;
+}
+
+#produkty {
+    padding: 50px 0;
+    width: 1000px;
+    margin: auto;
+}
+
+.lokalizacje {
+    background-image: url('./resources/images/img-locations-background.webp');
+    background-position: center;
+    padding-top: 30px;
+    height: 500px;
+}
+
+.adresy {
+    display: flex;
+    justify-content: center;
+}
+
+#downtown {
+    padding: 0 0 0 0;
+    border: 1px solid seashell;
+    margin: 0 10px;
+    background-color: black;
+    width: 300px;
+}
+
+.the-cozy {
+    height: 200px;
+}
+
+footer {
+    text-align: start;
+    padding-left: 20px
+}
+
+#tytul-locations {
+    margin: 15px 0;
+}
